@@ -32,6 +32,12 @@ namespace Triangle
             sideC = 3;
         }
 
+        public Triangle(double angleA, double angleB, int a)
+        {
+            this.angleA = angleA;
+            this.angleB = angleB;
+        }
+
         public Triangle(double sideA, double sideB)
         {
             this.sideA = sideA;

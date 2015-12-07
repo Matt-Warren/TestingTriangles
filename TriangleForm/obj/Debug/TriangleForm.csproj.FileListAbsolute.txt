@@ -6,3 +6,6 @@ C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\ob
 C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.csproj.GenerateResource.Cache
 C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.exe
 C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.pdb
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\bin\Debug\Triangle.dll
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\bin\Debug\Triangle.pdb
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.Form1.resources
