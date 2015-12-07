@@ -30,9 +30,10 @@ namespace Triangle
 
         }
 
-        public void CalculateArea()
+        public double CalculateArea()
         {
-
+            double calcArea = 0;
+            return calcArea;
         }
 
         public double GetMissingAngle()
