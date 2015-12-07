@@ -34,18 +34,19 @@ namespace Triangle
         public double Cosine(char side)
         {
             double retval = 0;
+
             switch (side)
             {
                 case 'a':
-                    sideA = Math.Sqrt(Math.Pow(sideB, 2) * Math.Pow(sideC, 2) - (2 * sideB * sideC) * Math.Cos(angleBC));
+                    sideA = Math.Sqrt(Math.Pow(sideB, 2) * Math.Pow(sideC, 2) - (2 * sideB * sideC) * Math.Cos(angleBC * Math.PI / 180));
                     retval = sideA;
                     break;
                 case 'b':
-                    sideB = Math.Sqrt(Math.Pow(sideA, 2) * Math.Pow(sideC, 2) - (2 * sideA * sideB) * Math.Cos(angleAC));
+                    sideB = Math.Sqrt( Math.Pow(sideA, 2) + Math.Pow(sideC, 2) - (2 * sideA * sideB) * Math.Cos(angleAC * Math.PI / 180));
                     retval = sideB;
                     break;
                 case 'c':
-                    sideC = Math.Sqrt(Math.Pow(sideA, 2) * Math.Pow(sideB, 2) - (2 * sideA * sideB) * Math.Cos(angleAB));
+                    sideC = Math.Sqrt( (Math.Pow(sideA, 2)) + (Math.Pow(sideB, 2)) - (2 * sideA * sideB * (Math.Cos(angleAB*Math.PI/180))) );
                     retval = sideC;
                     break;
 
