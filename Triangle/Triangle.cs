@@ -27,7 +27,8 @@ namespace Triangle
 
         public Triangle(double sideA, double sideB)
         {
-
+            this.sideA = sideA;
+            this.sideB = sideB;
         }
 
         public double GetSideC()
@@ -39,6 +40,7 @@ namespace Triangle
         public double CalculateArea()
         {
             double calcArea = 0;
+            calcArea = 0.5 * sideA * sideB;
             return calcArea;
         }
 
