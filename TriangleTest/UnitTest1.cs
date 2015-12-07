@@ -20,7 +20,7 @@ namespace TriangleTest
         {
             Triangle.Triangle tri = new Triangle.Triangle(20, 20);
             double status = tri.GetSideC();
-            Assert.AreEqual(28.2842712475, status);
+            Assert.AreEqual(Math.Round(28.2842712475,4), status);
         }
     }
 }
