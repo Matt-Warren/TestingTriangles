@@ -8,6 +8,18 @@ namespace TriangleTest
     public class UnitTest1
     {
         [TestMethod]
+        public void Test_Cosine()
+        {
+            Triangle.Triangle tri = new Triangle.Triangle();
+            tri.sideA = 20;
+            tri.sideB = 10;
+            tri.angleAB = 56;
+            double status = tri.Cosine('c');
+            Assert.AreEqual(Math.Round(16.62296, 4), status);
+        }
+
+
+        [TestMethod]
         public void Test_AreaCalculation()
         {
             Triangle.Triangle tri = new Triangle.Triangle(20, 20);
