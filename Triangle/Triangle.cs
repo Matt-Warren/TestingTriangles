@@ -34,13 +34,14 @@ namespace Triangle
         public double GetSideC()
         {
             double c = 0;
+            c = Math.Round(Math.Sqrt(Math.Pow(sideA, 2) + Math.Pow(sideB, 2)),4);
             return c;
         }
 
         public double CalculateArea()
         {
             double calcArea = 0;
-            calcArea = 0.5 * sideA * sideB;
+            calcArea = Math.Round(0.5 * sideA * sideB , 4);
             return calcArea;
         }
 
