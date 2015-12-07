@@ -30,6 +30,12 @@ namespace Triangle
 
         }
 
+        public double GetSideC()
+        {
+            double c = 0;
+            return c;
+        }
+
         public double CalculateArea()
         {
             double calcArea = 0;
