@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+* FILE : Form1.cs
+* PROGRAMMER : Matt Warren
+* FIRST VERSION : 2015-12-07
+* DESCRIPTION :
+* The functions in this file are used to create a form to test the functions in the Triangle class
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,7 +61,7 @@ namespace TriangleForm
         private void cbRightAngle_CheckedChanged(object sender, EventArgs e)
         {
             if (cbRightAngle.Checked)
-            {
+            { 
                 btnDoStuff.Text = "Side C and Area";
                 txtAngleA.Enabled = false;
                 txtAngleB.Enabled = false;
