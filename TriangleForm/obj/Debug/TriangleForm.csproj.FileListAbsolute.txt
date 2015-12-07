@@ -1,1 +1,8 @@
 c:\users\matt\documents\visual studio 2015\Projects\TriangleForm\TriangleForm\bin\Debug\TriangleForm.exe.config
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\bin\Debug\TriangleForm.exe
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\bin\Debug\TriangleForm.pdb
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.csprojResolveAssemblyReference.cache
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.Properties.Resources.resources
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.csproj.GenerateResource.Cache
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.exe
+C:\Users\Matt\Documents\Visual Studio 2015\Projects\TriangleForm\TriangleForm\obj\Debug\TriangleForm.pdb
