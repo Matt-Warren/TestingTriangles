@@ -8,21 +8,28 @@ namespace Triangle
 {
     public class Triangle
     {
+        public static double maxAngle = 180;
+
         public double sideA;
         public double sideB;
         public double sideC;
 
         public double area;
 
-        public double angleAB;
-        public double angleAC;
-        public double angleBC;
+        public double angleA;
+        public double angleB;
+        public double angleC;
 
         public bool rightAngled;
 
         public Triangle()
         {
-
+            angleA = 60;
+            angleB = 60;
+            angleC = 60;
+            sideA = 3;
+            sideB = 3;
+            sideC = 3;
         }
 
         public Triangle(double sideA, double sideB)
@@ -38,15 +45,15 @@ namespace Triangle
             switch (side)
             {
                 case 'a':
-                    sideA = Math.Sqrt(Math.Pow(sideB, 2) * Math.Pow(sideC, 2) - (2 * sideB * sideC) * Math.Cos(angleBC * Math.PI / 180));
+                    sideA = Math.Sqrt(Math.Pow(sideB, 2) * Math.Pow(sideC, 2) - (2 * sideB * sideC) * Math.Cos(angleA * Math.PI / 180));
                     retval = sideA;
                     break;
                 case 'b':
-                    sideB = Math.Sqrt( Math.Pow(sideA, 2) + Math.Pow(sideC, 2) - (2 * sideA * sideB) * Math.Cos(angleAC * Math.PI / 180));
+                    sideB = Math.Sqrt( Math.Pow(sideA, 2) + Math.Pow(sideC, 2) - (2 * sideA * sideB) * Math.Cos(angleB * Math.PI / 180));
                     retval = sideB;
                     break;
                 case 'c':
-                    sideC = Math.Sqrt( (Math.Pow(sideA, 2)) + (Math.Pow(sideB, 2)) - (2 * sideA * sideB * (Math.Cos(angleAB*Math.PI/180))) );
+                    sideC = Math.Sqrt( (Math.Pow(sideA, 2)) + (Math.Pow(sideB, 2)) - (2 * sideA * sideB * (Math.Cos(angleC*Math.PI/180))) );
                     retval = sideC;
                     break;
 
@@ -71,10 +78,22 @@ namespace Triangle
             return calcArea;
         }
 
-        public double GetMissingAngle()
+        public double GetMissingAngle(char angle)
         {
             double missingAngle = 0;
-
+            double max = maxAngle;
+            switch (angle)
+            {
+                case 'a':
+                    missingAngle = max - angleB - angleC;
+                    break;
+                case 'b':
+                    missingAngle = max - angleA - angleC;
+                    break;
+                case 'c':
+                    missingAngle = max - angleA - angleB;
+                    break;
+            }
             return missingAngle;
         }
 
