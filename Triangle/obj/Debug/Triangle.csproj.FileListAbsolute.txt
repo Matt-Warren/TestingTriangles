@@ -1,0 +1,5 @@
+c:\users\matt\documents\visual studio 2015\Projects\TriangleForm\Triangle\bin\Debug\Triangle.dll
+c:\users\matt\documents\visual studio 2015\Projects\TriangleForm\Triangle\bin\Debug\Triangle.pdb
+c:\users\matt\documents\visual studio 2015\Projects\TriangleForm\Triangle\obj\Debug\Triangle.csprojResolveAssemblyReference.cache
+c:\users\matt\documents\visual studio 2015\Projects\TriangleForm\Triangle\obj\Debug\Triangle.dll
+c:\users\matt\documents\visual studio 2015\Projects\TriangleForm\Triangle\obj\Debug\Triangle.pdb
