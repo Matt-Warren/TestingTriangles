@@ -14,5 +14,13 @@ namespace TriangleTest
             double status = tri.CalculateArea();
             Assert.AreEqual(200, status);
         }
+
+        [TestMethod]
+        public void Test_Pythagorean()
+        {
+            Triangle.Triangle tri = new Triangle.Triangle(20, 20);
+            double status = tri.GetSideC();
+            Assert.AreEqual(28.2842712475, status);
+        }
     }
 }
